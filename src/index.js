@@ -11,7 +11,7 @@ const app = express()
 
 // CORS configuration
 app.use(cors({
-  origin: 'http://localhost:3000', // Frontend URL
+  origin: ['http://localhost:3000', 'https://inventorybackend-07e7.onrender.com'], // Frontend URL
   credentials: true
 }))
 
