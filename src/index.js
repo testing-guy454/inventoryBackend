@@ -11,7 +11,7 @@ const app = express()
 
 // CORS configuration
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://inventory-ms-be.vercel.app'], // Frontend URL
+  origin: ['http://localhost:3000', 'https://inventory-ms-be.vercel.app'],
   credentials: true
 }))
 
